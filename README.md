@@ -15,22 +15,21 @@ Please follow below instructions to setup the virtual machines:
 
     https://github.com/quickfixitsoln/env-setup.git
 
-4. Download putty and winscp :
-
-     putty ::  http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-  
-    winscp:     https://winscp.net/eng/docs/guide_install
-
-      GITBashshell
+4. Download and install GITBashshell , open git bash shell
+      
+      cat ~/.ssh/config << ServerAliveInterval 20
+         
 
 5. Restart the machine and press F2 or F10 to go into Bios mode. VT-x/AMD-v virtualization must be enabled in BIOS
-6.  open cmd prompt in windows machine and go into the unzipped multivagrant directory:
+6.  open git bash shell and go into the unzipped multivagrant directory:
 
      #cd  dir-of-multi-vagrant
       #vagrant up gitlab.example.com
+     
+          
 
  7. Enter ip address through putty:
-
-      username /password :  vagrant/vagrant
-  Sudo -i
+       #vagrant ssh gitlab.example.com
+         username /password :  vagrant/vagrant
+         Sudo -i
   
