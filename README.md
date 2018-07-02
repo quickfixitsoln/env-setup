@@ -15,7 +15,7 @@ Please follow below instructions to setup the virtual machines:
 
     https://github.com/quickfixitsoln/env-setup.git
 
-4. Download and install GITBashshell , open git bash shell
+4. Download and install GITBashshell (https://git-scm.com/downloads), open git bash shell
       
       cat ~/.ssh/config << ServerAliveInterval 20
          
